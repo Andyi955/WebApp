@@ -1,0 +1,18 @@
+{{> menu}}
+<div class="ui small breadcrumb">
+    <a id ="home" class="item" href="/start"> Video Game App</a>
+
+  <i class="right chevron icon divider"></i>   
+ <a id="dashboard" class="item" href="/dashboard"> Dashboard </a>
+
+  <i class="right chevron icon divider"></i>
+  <div class="active section">Genre</div>
+</div>
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    {{genre.title}}
+  </h2>
+  {{> listgames}}
+  {{> addgame}}
+</section>

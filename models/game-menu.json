@@ -1,0 +1,150 @@
+{
+  "gameCollection": [
+    {
+      "id": "e5fb99d8-12be-43f4-9fb1-66e4150990d3",
+      "userid": "c0d65cce-3c9c-4490-8e6f-87a0b0bdece5",
+      "description": "My favourtie FPS games",
+      "picture": "http://res.cloudinary.com/andrewi95/image/upload/v1587145232/waml6koh3phj7g23725f.jpg",
+      "date": "2020-04-17T17:40:32.189Z",
+      "games": []
+    },
+    {
+      "id": "9a32a358-7434-4c9b-b625-9efcf99c2462",
+      "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+      "description": "My favourtie FPS games",
+      "picture": "http://res.cloudinary.com/andrewi95/image/upload/v1587726814/kxsis5jaduf9vc8v8lzq.jpg",
+      "date": "2020-04-24T11:13:33.876Z",
+      "games": [
+        {
+          "id": "fa473439-ee29-4327-821e-98354854cccf",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "Modern Warefare",
+          "multiplayer": "yes",
+          "price": "60.00"
+        },
+        {
+          "id": "31149400-af40-4021-9fc4-55f89ef9a93b",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "Crash Bandicoot",
+          "multiplayer": "No",
+          "price": "45.00"
+        },
+        {
+          "id": "a57b4ecc-2a03-4da7-af0b-f877f821d219",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "Fallout New Vegas",
+          "multiplayer": "No",
+          "price": "50.00"
+        },
+        {
+          "id": "86cb7bb7-d7ea-4210-bd5b-324e42fe5e38",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "Battle Field 4",
+          "multiplayer": "Yes",
+          "price": "25.00"
+        },
+        {
+          "id": "f07fc2fc-8751-454e-a28b-3d048c73ed35",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "Warzone",
+          "multiplayer": "Yes",
+          "price": "50.00"
+        }
+      ]
+    },
+    {
+      "id": "4fbf9099-bcb1-4f34-87bf-769f95221a4d",
+      "userid": "931d271e-563a-459c-80c0-8049ca71f0df",
+      "description": "My Platformers",
+      "picture": "http://res.cloudinary.com/andrewi95/image/upload/v1587727788/g1eolyf6ghjn3wsxgjme.png",
+      "date": "2020-04-24T11:29:48.329Z",
+      "games": [
+        {
+          "id": "abdbbc1e-75ee-4bd8-a505-adb944dbd6d2",
+          "userid": "931d271e-563a-459c-80c0-8049ca71f0df",
+          "title": "Crash Bandicoot",
+          "multiplayer": "No",
+          "price": "50.00"
+        }
+      ]
+    },
+    {
+      "id": "01e029d3-2bef-4ec2-bc71-b355069128a0",
+      "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+      "description": "RPG",
+      "picture": "http://res.cloudinary.com/andrewi95/image/upload/v1587741926/a90kfqu4vckr9ako9q2l.jpg",
+      "date": "2020-04-24T15:25:25.990Z",
+      "games": [
+        {
+          "id": "1b000f0d-cca2-42b2-b030-89c6035a56fd",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "Skyrim",
+          "multiplayer": "Yes",
+          "price": "20.00"
+        },
+        {
+          "id": "c7624177-45f9-46e2-9808-8f7b4077cceb",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "Fallout 76",
+          "multiplayer": "Yes",
+          "price": "60.00"
+        },
+        {
+          "id": "18cdfc24-8fb0-4d95-bf06-46ed842cde85",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "Oblivion",
+          "multiplayer": "Yes",
+          "price": "15.00"
+        }
+      ]
+    },
+    {
+      "id": "6b7b6074-8e4f-4014-a17b-801e152be0c0",
+      "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+      "description": "Sports",
+      "picture": "http://res.cloudinary.com/andrewi95/image/upload/v1587745998/b2q9ldt8t8uevjkubqtj.jpg",
+      "date": "2020-04-24T16:33:18.147Z",
+      "games": [
+        {
+          "id": "d1c8f3cf-248b-4ce1-9e21-ec5aac0f68ad",
+          "userid": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
+          "title": "FIFA 2020",
+          "multiplayer": "Yes",
+          "price": "60.00"
+        }
+      ]
+    },
+    {
+      "id": "409057cb-4c11-409e-8d72-a5d4303e47e8",
+      "userid": "629ba65a-c5a8-46aa-b375-872e72bc5732",
+      "description": "Adventure",
+      "picture": "http://res.cloudinary.com/andrewi95/image/upload/v1587928834/lz9bxilj97cnwuy1ju2q.jpg",
+      "date": "2020-04-26T19:20:33.863Z",
+      "games": [
+        {
+          "id": "13952329-50d3-4d3c-a2ad-611b49ca6fb4",
+          "userid": "629ba65a-c5a8-46aa-b375-872e72bc5732",
+          "title": "Skyrim",
+          "multiplayer": "No",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "ce1aabbd-cc72-4be0-a429-d7bf95f47a8a",
+      "userid": "980e4560-1f5c-49da-8252-1fcd44cbd16c",
+      "description": "My favourtie FPS games",
+      "picture": "http://res.cloudinary.com/andrewi95/image/upload/v1588069656/pucoogrkofjrzcn2cq9s.jpg",
+      "date": "2020-04-28T10:27:35.829Z",
+      "games": [
+        {
+          "id": "45f2f684-f825-416b-ac83-13f2b058130f",
+          "userid": "980e4560-1f5c-49da-8252-1fcd44cbd16c",
+          "title": "Modern Warefare",
+          "multiplayer": "Yes",
+          "price": "60.00"
+        }
+      ]
+    }
+  ]
+}

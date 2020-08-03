@@ -1,0 +1,111 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+    background-image: url("https://res.cloudinary.com/andrewi95/image/upload/v1587914224/bk3_vxbexq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   background-attachment: fixed;
+
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#readmore {
+  display: none;
+}
+
+#welcomeuser {
+  display: none;
+}
+
+
+.ui.column{
+  border:solid black 1px;
+}
+
+.ui.menu{
+  border: solid black 1px;
+  
+}
+
+.ui.fixed.striped.table{
+  border:solid black 1px;
+  
+}
+
+.mapouter{
+  height:100%;
+  width:100%;
+}
+
+.ui.container.map{
+  margin:2em;
+  border:solid black 3px;
+}
+
+
+
+.ui.image.img{
+  height:250px;
+  width:600px;
+  margin:0.5em;
+  padding:0.5em;
+  border:0em;
+}
+
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}
+#bg{
+  background-image: url("https://res.cloudinary.com/andrewi95/image/upload/v1587914224/bk3_vxbexq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   background-attachment: fixed;
+
+
+}
+.ui.home.column{
+  border:0em;
+  color:blue;
+}
+#txt{
+  color:black;
+  font-size:2em;
+}
+
+#val1{
+  color:white;
+}
+.ui.breadcrumb{
+  color:white;
+}
+
+.ui.home.grid{
+  border:solid black 2px;
+  background-image: url("https://res.cloudinary.com/andrewi95/image/upload/v1587929118/WVcAdaK_t62eih.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+
+   background-attachment: fixed;
+}
+
+#date{
+  color:white;
+  text-align:right;
+}

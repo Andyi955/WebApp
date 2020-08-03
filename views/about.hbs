@@ -1,0 +1,45 @@
+{{> menu id="about"}}
+
+<div class="ui breadcrumb">
+    <a id ="home" class="item" href="/start"> Video Game App</a>
+
+
+
+  <i class="right chevron icon divider"></i>
+  <div class="active section">About</div>
+</div>
+<section class="ui center aligned middle aligned segment">
+
+  <h2 class="ui header">
+    Game Developers 
+  </h2>
+
+  <div class="ui centered cards">
+          {{#each gamedev}}
+            {{>card }}
+    
+{{/each}}
+     {{>addcomment}}
+
+
+  </div>
+  {{>listcomments}}
+   
+  
+ 
+ <div class = "ui container map">
+        
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.0580727674896!2d-7.112556184202202!3d52.26049047976588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4842c69c06d52fb3%3A0x9cba6630814e9cca!2sGameStop!5e0!3m2!1sen!2sie!4v1584196573394!5m2!1sen!2sie" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      
+
+      
+      </div>
+  <section class="ui segment">
+   
+
+  
+  </section>
+  
+
+
+</section>

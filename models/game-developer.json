@@ -1,0 +1,27 @@
+{"gamedevs":
+  [
+    {
+      "company":"Rockstar",
+      "image":"https://cdn.glitch.com/33412c2c-d3cb-40e0-99b8-46faaf6f3101%2FRockstar_Games_Logo.svg.png?v=1583328660581",
+      "founded":1998,
+      "headquaters":"New York",
+      "website": "https://www.rockstargames.com"
+          
+    },
+    {
+      "company":"Bethesda",
+      "image":"https://cdn.glitch.com/33412c2c-d3cb-40e0-99b8-46faaf6f3101%2Fflat%2C750x%2C075%2Cf-pad%2C750x1000%2Cf8f8f8.u144.jpg?v=1583330366471",
+      "founded":1986,
+      "headquaters":"Maryland",
+      "website": "https://bethesda.net/en/dashboard"
+    },
+    {
+     "company":"Valve",
+      "image":"https://cdn.glitch.com/33412c2c-d3cb-40e0-99b8-46faaf6f3101%2Fmaxresdefault22.jpg?v=1583330957393",
+      "founded":2016,
+      "headquaters":"Boston",
+            "website": "https://www.valvesoftware.com/en/"
+
+    }
+  ]
+}
