@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "firstName": "Andrew",
-      "lastName": "Test",
-      "email": "andrewivory2008@gmail.com",
-      "password": "Andy1234",
-      "id": "a9bf5497-c7f0-4cd3-953c-742bdfb0233d",
-      "picture": "http://res.cloudinary.com/andrewi95/image/upload/v1587680182/fohnpgxkqigvfow60ave.jpg"
-    },
-    {
       "firstName": "Jim",
       "lastName": "Bob",
       "email": "jimbob@hotmail.com",
