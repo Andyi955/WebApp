@@ -1,0 +1,17 @@
+<form class="ui stacked segment form" action="/genre/{{genre.id}}/addgame" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required>
+    </div>
+    <div class="field">
+      <label>Multiplayer</label>
+      <input placeholder="Multiplayer" type="text" name="multiplayer" required>
+    </div>
+     <div class="field">
+      <label>Price</label>
+      <input placeholder="Price" type="text" name="price" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Game</button>
+</form>

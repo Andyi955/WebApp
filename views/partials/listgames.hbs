@@ -1,0 +1,64 @@
+{{#unless genre.games}}
+  <h3 class="ui center aligned message">It's very quiet in here... start your favourite games!</h3>
+{{/unless}}
+
+{{#if genre.games}}
+<table class="ui fixed striped table" >
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Multiplayer</th>
+      <th>Price</th>
+      <th>Delete</th>
+      <th>Game Rating</th>
+      <th>Update</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each genre.games}}
+   <form class = "ui form" action="/genre/{{../genre.id}}/updategame/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input placeholder="Title" type="text" size="30" name="title" autofocus required value = "{{title}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Multiplayer" type="text" size="30" name="multiplayer" required value = "{{multiplayer}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Price" type="text" name="price" required value = "{{price}}">
+        </span>
+      </td>
+   
+  
+   
+      <td>
+<a href="/genre/{{../genre.id}}/deletegame/{{id}}" class="ui icon button">
+  <i class="red icon trash"></i>
+</a>
+        </td>
+
+  </form>
+        <td><div class="ui star rating" data-rating="1"></div>
+</td>
+            <td>        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+
+
+<p>
+  <button class="ui orange button" onclick="getRating()">
+  Rate it! <i class="star icon"></i></button>
+
+   
+  <span id="rating"> </span>
+</p>
+{{/if}}

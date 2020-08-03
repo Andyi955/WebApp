@@ -1,0 +1,163 @@
+{{> menu}}
+
+
+    <section class = "ui container">
+      
+
+   
+      
+    <section class="ui two column grid segment" >
+
+      <div class="ui column">
+        <h2>Video Game Review App</h2>
+          <p>
+            This app will allow users to create and review games and genres.
+          </p>
+     
+
+  
+
+ 
+    <div class="buttons">
+      <button class="ui yellow button" onclick="showHide()">
+        Read more <i class="arrow circle right icon"></i>
+      </button>
+      <button class="ui green button" onclick="likeIt()">
+        Like it? <i class="thumbs up icon"></i>
+      </button>
+      <button class="ui purple button"  onclick="welcomeUser()">
+        Who are you? <i class="user icon"></i>
+      </button>
+        </div>
+        
+        
+        <div id="readmore" class="ui message">
+  <p>
+    Hello and welcome to my video game web app. Here you will be able to add your favourtie games and rate them.
+  </p>  
+</div>
+        <div id="welcomeuser" class="ui message" onclick = "hideWelcome()"> </div>
+        
+              <div class="ui divider"></div>
+
+          
+    
+    
+        
+        
+        <div class = "ui column">
+        
+            
+            
+            
+            
+              
+           <div class="ui rectangle shape">
+  <div class="sides">
+    <div class="side active">
+      <div class="content">
+        <div class="center">
+           <img class = "ui image img" src=  "https://cdn.glitch.com/33412c2c-d3cb-40e0-99b8-46faaf6f3101%2Funnamed.jpg?v=1583331658367">
+
+        </div>
+      </div>
+    </div>
+    <div class="side">
+      <div class="content">
+        <div class="center">
+          <img class = "ui image img" src = "https://cdn.glitch.com/3521ec07-df8f-4897-ae68-841d1ffcc1b5%2F8-%20Counter%20Strike%201.6%201280x960.jpg?v=1583265465961">
+        </div>
+      </div>
+    </div>
+    <div class="side">
+      <div class="content">
+        <div class="center">
+           <img class = "ui image img" src ="https://cdn.glitch.com/3521ec07-df8f-4897-ae68-841d1ffcc1b5%2Fdddd.jpg?v=1583269142869">
+        </div>
+      </div>
+    </div>
+    <div class="side">
+      <div class="content">
+        <div class="center">
+          <img class = "ui image img" src ="https://cdn.glitch.com/8dbcb4f0-2dfe-491c-bd3e-55a299628606%2Funnamed.jpg?v=1584230171468">
+        </div>
+      </div>
+    </div>
+   
+  
+  </div>
+</div>
+              
+  <i class="chevron large left icon left"></i>
+<i class="chevron large up icon"></i>
+              <i class="chevron large down icon"></i>
+
+
+<i class="chevron large right icon"></i>
+
+          
+          
+      </div>
+   
+          
+          
+      </div>
+      </div>
+        
+        
+      
+    
+        <div class = "ui column">
+          
+  
+                
+          
+            
+            
+             <h3 class="ui center aligned header">The Playlist App now contains:</h3>
+      <div class="ui statistics">
+        <div class="ui huge statistic">
+          <div class="value">
+            {{myGenres}}
+          </div>
+          <div class="label">
+            Genres
+          </div>
+        </div>
+        <div class="ui huge statistic">
+          <div class="value">
+            {{totalGames}}
+          </div>
+          <div class="label">
+            Games
+          </div>
+        </div>
+           <div class="ui huge statistic">
+          <div class="value">
+            {{avgGames}}
+          </div>
+          <div class="label">
+            Average Games
+        </div>
+      </div>
+       
+        
+            </div>
+                  </div>
+        </div>
+          
+     
+      </section>
+
+     
+      
+    
+      
+      
+      
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+</section>
